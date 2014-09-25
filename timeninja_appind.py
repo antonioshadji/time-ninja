@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-displays days to end of year/quarter
-''' 
+displays days to end of year/month
+'''
+
 from gi.repository import Gtk, Gdk, GObject, GLib
 
 try:
@@ -51,7 +52,7 @@ class GoalCountdown(GObject.GObject):
                 str(self.month.days)+" Days", "")
 
         # Refresh indicator
-        #GLib.timeout_add_seconds(60, self.menu_structure)
+        GLib.timeout_add_seconds(60*60*1000, self.set_vars)
 
     def set_vars(self):
         self.year = date(date.today().year + 1, 1, 1) - date.today()
