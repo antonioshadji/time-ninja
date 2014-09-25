@@ -5,14 +5,16 @@ This is a work in progress.
 
 The date is not a useful metric for tracking progress towards goals.  This tool gives you a constant reminder of how many days are left in the year and the month.  
 
-I plan to expand this tool:  
- - add menu items that interact with google calendar  
- - add reporting functions to extract metrics from google calendar  
+Current plans to expand this tool:  
+ - [ ] add menu items that interact with google calendar  
+ - [ ] add reporting functions to extract metrics from google calendar  
 
 
 Documentation used in creating this code  
 ----------
 https://lazka.github.io/pgi-docs/AppIndicator3-0.1/index.html
+https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-timeout-add
+
 
 I started with code from this stackexchange question:
 https://stackoverflow.com/questions/23568797/gtk-3-python-appindicator-disable-icon-near-label
