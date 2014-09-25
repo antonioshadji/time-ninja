@@ -1,0 +1,33 @@
+Time Ninja - a time management tool for Ubuntu Linux
+=========
+
+This is a work in progress.  
+
+The date is not a useful metric for tracking progress towards goals.  This tool gives you a constant reminder of how many days are left in the year and the month.  
+
+I plan to expand this tool:  
+ - add menu items that interact with google calendar  
+ - add reporting functions to extract metrics from google calendar  
+
+
+Documentation used in creating this code  
+----------
+https://lazka.github.io/pgi-docs/AppIndicator3-0.1/index.html
+
+I started with code from this stackexchange question:
+https://stackoverflow.com/questions/23568797/gtk-3-python-appindicator-disable-icon-near-label
+
+I got some ideas from this code courtesy of http://askubuntu.com/users/59971/charl-botha
+https://bitbucket.org/cpbotha/indicator-cpuspeed/src/6f172c5d57082757034d4df49ab77072495117f8/indicator-cpuspeed.py?at=default
+which was found on this thread on AskUbuntu.com
+http://askubuntu.com/questions/108035/writing-indicators-with-python-gir-and-gtk3
+
+This code from Kazam is a good example of coding the Unity AppIndicator
+https://bazaar.launchpad.net/~kazam-team/kazam/stable/view/head:/kazam/frontend/indicator.py
+
+another example
+http://conjurecode.com/create-indicator-applet-for-ubuntu-unity-with-python/
+
+The hourglass.png icon is licensed under Creative Commons Attribution 3.0 Unported (CC BY 3.0) by http://www.webalys.com/ and downloaded from https://www.iconfinder.com/icons/95136/hourglass_icon#size=45
+
+
