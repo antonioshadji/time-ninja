@@ -1,9 +1,9 @@
 Time Ninja - a time management tool for Ubuntu Linux
 =========
+The date is not a useful metric for tracking progress towards goals.  This tool gives you a constant reminder of how many days are left in the year and the month. This is a work in progress.  
 
-This is a work in progress.  
-
-The date is not a useful metric for tracking progress towards goals.  This tool gives you a constant reminder of how many days are left in the year and the month.  
+Current GUI is built as an AppIndicator  
+![Screeshot](https://raw.githubusercontent.com/AntoniosHadji/time-ninja/master/timeninja.png)
 
 Current plans to expand this tool:  
  - [ ] add menu items that interact with google calendar  
